@@ -7,7 +7,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif'],
+      sans: ['Satoshi-Variable', 'sans-serif'],
       display: ['Chillax-Variable', 'sans-serif'],
     },
     extend: {},

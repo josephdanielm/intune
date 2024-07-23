@@ -1,9 +1,3 @@
-# React Template
+# Intune
 
-Starter project template with:
-
-- React
-- Tailwind CSS
-- ESLint
-- Prettier
-- Vite
+React project utilizing Spotify's API.

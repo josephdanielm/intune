@@ -2,13 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Chillax-Variable';
+  src: url('./fonts/Chillax-Variable.woff2') format('woff2');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('./fonts/Satoshi-Variable.woff2') format('woff2');
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+
 :root {
   font-family: Avenir, system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.2;
   font-weight: 400;
 
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #1a1a1a;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -53,8 +69,4 @@ body,
   height: 100dvh;
   width: 100dvw;
   overflow: hidden;
-}
-
-#root {
-  display: flex;
 }
